@@ -83,7 +83,8 @@ AquaSmart helps users:
 - Implement smart conservation strategies
 
 ## 🌟 Acknowledgments
-
+## directory
+```
 1029-prototype/
 ├── package.json
 ├── tsconfig.json  
@@ -128,4 +129,4 @@ AquaSmart helps users:
             ├── utils.ts
             ├── chatbot-responses.ts
             └── water-prediction.ts
-
+```
