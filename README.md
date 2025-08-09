@@ -85,3 +85,40 @@ AquaSmart helps users:
 ## 🌟 Acknowledgments
 
 Built for the AURA Challenge - Smart Resource Management & AI-Driven Sustainability
+
+
+
+server/
+├── index.ts       # Main server entry point
+├── routes.ts      # API routes and handlers
+├── storage.ts     # Data storage interface and implementation
+└── vite.ts        # Vite development server integration
+shared/
+└── schema.ts      # TypeScript schemas and database models
+client/
+├── index.html     # Main HTML template
+└── src/
+    ├── main.tsx                    # React app entry point
+    ├── App.tsx                     # Main app component with routing
+    ├── index.css                   # Global styles and theme
+    ├── components/
+    │   ├── navigation.tsx          # Main navigation component
+    │   ├── impact-stats.tsx        # Community impact statistics
+    │   ├── chatbot.tsx            # AI chatbot assistant
+    │   ├── water-tips.tsx         # Water conservation tips
+    │   ├── india-map.tsx          # Interactive India map
+    │   └── ui/                    # shadcn/ui components (auto-generated)
+    ├── pages/
+    │   ├── home.tsx               # Homepage with hero and features
+    │   ├── prediction.tsx         # Water usage prediction form
+    │   ├── future-risks.tsx       # Climate change awareness page
+    │   └── not-found.tsx          # 404 error page
+    ├── hooks/
+    │   ├── use-mobile.tsx         # Mobile device detection
+    │   └── use-toast.ts           # Toast notification hook
+    └── lib/
+        ├── queryClient.ts         # React Query configuration
+        ├── utils.ts               # Utility functions
+        ├── chatbot-responses.ts   # AI chatbot response logic
+        └── water-prediction.ts    # Water usage calculation logic
+
